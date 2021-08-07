@@ -1,17 +1,13 @@
 import React from 'react';
 import "./App.css";
-import Todo from "./components/Todo"
+import LandingPage from "./components/LandingPage";
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
-    <div>
-
-      <Todo />
-      <h1>Lorem ipsum dolor sit amet consectetur, 
-        adipisicing elit. Exercitationem at, omnis fugiat 
-        sunt sed eaque unde, voluptatum, voluptatibus deleniti
-         molestiae cumque cum accusamus animi ipsam aperiam 
-         in qui laboriosam saepe?</h1>
+    <div className = "page">
+      <Navbar />
+      <LandingPage />
     </div>
   );
 }
