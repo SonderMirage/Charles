@@ -8,7 +8,9 @@ body {
 }
 
 a{
-  color: hotpink
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 code {
