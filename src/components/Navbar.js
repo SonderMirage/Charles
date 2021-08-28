@@ -9,6 +9,9 @@ const barStyles = {
     margin: "auto",
     padding: "0",
     backgroundColor: "hsl(169, 60%, 60%)", // blue
+    borderBottomStyle:"solid",
+    borderColor: "black",
+    borderWidth:"5px"
 }
 
 const barItem = {
