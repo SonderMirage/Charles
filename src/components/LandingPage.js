@@ -1,22 +1,22 @@
+
+//import the meain react component and subsecuent components for use in landing page
 import React from "react";
 import "../main.css"
 import Card from "./Card"
-import ImageSlider from "./ImageSlider"
 import cloud from "../img/Controller-3.png"
 import omega from "../img/Controller-2.png"
 import galaxy from "../img/Controller-1.png"
 
+//css for featured category
 const featured = {
     textAlign:"center",
     paddingTop:"2%"
 }
 
+//main landing page function
 function LandingPage(){
     return(
     <div className = "Main">
-        <div className = "slideshow">
-            <ImageSlider />
-        </div>
         <div className = "cards">
             <h2 style = {featured}>Featured controllers</h2>
             <Card name= "Cloud" price="$69.69" comment="subtle and simple while still being a game changer" img={cloud}/>
