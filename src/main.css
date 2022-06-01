@@ -8,8 +8,8 @@ body {
   background-color:darkslategray;
 }
 h2{
-  font-family: "roboto";
-  font-size: xx-large;
+  font-family: "roboto" , sans-serif;
+  font-size: x-large;
 }
 
 a{

@@ -1,0 +1,47 @@
+const SliderData = [
+    {
+        image:
+        "https://drive.google.com/file/d/1AnQooESvXr04kT-M3TNZ9JKSaZRD8o3l/view?usp=sharing"
+    },
+    {
+        image:
+        "https://drive.google.com/file/d/1A_hVJvaptNPphdN_X2_7JD5S9_p0_Y72/view?usp=sharing"
+
+    },
+    {
+        image:
+        "https://drive.google.com/file/d/1AdIo5NPxNNVjttrCNyuOmREzS079kYN9/view?usp=sharing"
+    },
+    {
+        image:
+        "https://drive.google.com/file/d/1AfA7HGvbyRcErt4F8MJ1r3dKBxEqH79f/view?usp=sharing"
+    },
+    {
+        image:
+        "https://drive.google.com/file/d/1As7_k6EevjSIcm63Bsr21nLitFsYrWwd/view?usp=sharing"
+    },
+    {
+        image:
+        "https://drive.google.com/file/d/1Auw-2JJdv72wVq94OmWIX2Ef3OqRuyge/view?usp=sharing"
+    },
+    {
+        image:
+        "https://drive.google.com/file/d/1AGcYORt-1XXqZFupSSgymZneew7RV6Xj/view?usp=sharing"
+    },
+    {
+        image:
+        "https://drive.google.com/file/d/1AUDPbX5Cfej80h4toTZsB-TuNiE1DoU2/view?usp=sharing"
+    },
+    {
+        image:
+        "https://drive.google.com/file/d/1AXBAcYKY7w3H1OwAyY6jEuzm5T2ep76q/view?usp=sharing"
+    },
+    {
+        image:
+        "https://drive.google.com/file/d/1AZY6h-S7HCVxPTx5faoBZ7mGQvV2Vehf/view?usp=sharing"
+    },
+    {
+        image:
+        "https://drive.google.com/file/d/1Ax8Zt8yjhktUY9VcyJwSciHnUdFstuE4/view?usp=sharing"
+    }
+]
