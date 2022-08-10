@@ -15,6 +15,7 @@ const barStyles = {
 }
 
 const barItem = {
+    fontSize: "40px",
     display: "inline",
     flex: "1",
     margin: "auto"
@@ -27,9 +28,9 @@ function Navbar(){
         <div>
             <ul style = {barStyles}>
                 <li style = {barItem}> <a href="home.html"> <img src= {logo} alt="logo" /> </a> </li>
-                <li style = {barItem}> <a href="shop.html">Shop</a> </li>
-                <li style = {barItem}> <a href="contact.html">Contact</a> </li>
-                <li style = {barItem}> <a href="customize.html">Customize</a> </li>
+                <li style = {barItem}> <a style={{fontFamily:"'Source Sans Pro', sans-serif"}}href="shop.html">Shop</a> </li>
+                <li style = {barItem}> <a style={{fontFamily:"'Source Sans Pro', sans-serif"}}href="contact.html">Contact</a> </li>
+                <li style = {barItem}> <a style={{fontFamily:"'Source Sans Pro', sans-serif"}}href="customize.html">Customize</a> </li>
             </ul>
         </div>
     );

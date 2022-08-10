@@ -32,6 +32,6 @@ code {
 }
 
 .cardimg{
-  height: 30%;
-  width: 30%;
+  max-width: 20%;
+  height: auto;
 }

@@ -4,26 +4,35 @@ import "../main.css"
 function Card(props){
 //should send the properties as follows: name, price, comment, img
     const cardStyle = {
-        marginTop: "5%",
+        height:"50vh",
+        paddingLeft:"5%",
         marginBottom: "5%",
         display: "flex",
-        justifyContent: "spaceBetween",
+        flexDirection:"row",
+        justifyContent:"space-around",
+        alignItems:"baseline",
         backgroundColor: "hsl(169, 10%, 50%)",   
+        textAlign:"center",
 }
 
     const content = {
-        display: "flex",
-        flexDirection: "column",
+        margin:"auto",
+    }
+
+    const price = {
+        paddingLeft:"20%",
+        fontSize:"40px",
+        fontWeight:"bold"
     }
 
     return(
         <div style={cardStyle}>
-            <img src={props.img} alt="cloud" className="cardimg"/>
+            <img style={content} src={props.img} alt="cloud" className="cardimg"/>
             <div style={content}>
-                <h2>{props.name}</h2>
-                <h3>{props.comment}</h3>
-                <p>{props.price}</p>
+                <h2> {props.name} </h2>
+                <h3> {props.comment} </h3>
             </div>
+            <p style={{...content, ...price}}> {props.price} </p>
         </div>
     )
 }
